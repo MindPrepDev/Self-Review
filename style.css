@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    }
+button, .fixedborder {
+    background-color: mediumseagreen;
+    border-style: none;
+    color: #1f2937;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 400;
+    text-decoration: none;
+}
+.head-logo {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+span {
+    color: mediumseagreen;
+}
+.head-text {
+    flex-shrink: 0;
+    width: 500px;
+    color: #f0f8ff;
+}
+
+.main-div {
+    background-color: #1f2937;
+    height: 700px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 8px 8px 0;
+    border: 1px solid #f0f8ff;
+    border-radius: 10px;
+}
+
+a.clear {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.0em;
+}
+
+ul {
+    display: flex;
+}
+
+.kits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+}
+
+.starter {
+    width: 300px;
+    height: 450px;
+}
+
+div .starter p {
+    width: 300px;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.push {
+    margin-left: 60px;
+}
+
+.test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #8fbc8f50;
+    gap: 30px;
+}
+
+#place-test {
+    max-width: 900px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+#frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 50%;
+    margin: 10px auto;
+    color: aliceblue;
+    border-radius: 20px;
+}
